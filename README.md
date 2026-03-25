@@ -1,11 +1,11 @@
-# Security Toolkit — All-in-One CLI
+# 🔐 Security Toolkit — All-in-One CLI
 
 > A clean, practical, educational cybersecurity toolkit built in pure Python.  
 > Port Scanner · Hash Generator · Password Analyser · WHOIS Lookup
 
 ---
 
-## Table of Contents
+## 📋 Table of Contents
 
 - [Problem](#-problem)
 - [Features](#-features)
@@ -18,7 +18,7 @@
 
 ---
 
-## Problem
+## 🎯 Problem
 
 Security professionals, developers, and students routinely need access to quick,
 reliable recon and analysis tools — but the landscape is fragmented:
@@ -35,9 +35,9 @@ that runs anywhere Python 3.8+ is installed — no root, no pip, no complexity.
 
 ---
 
-## Features
+## ✨ Features
 
-### Port Scanner
+### 🔍 Port Scanner
 - Multi-threaded TCP connect scan (up to 1000 threads)
 - Service fingerprinting (SSH, HTTP, FTP, MySQL, RDP, …)
 - Banner grabbing on HTTP/S ports
@@ -45,14 +45,14 @@ that runs anywhere Python 3.8+ is installed — no root, no pip, no complexity.
 - Configurable timeout and thread count
 - Export results to file
 
-### Hash Generator
+### #️⃣ Hash Generator
 - Algorithms: **MD5, SHA-1, SHA-256, SHA-512, SHA3-256, BLAKE2b**
 - Hash strings or entire files (streaming — handles any size)
 - Security advisory per algorithm (BROKEN / WEAK / SECURE)
 - `--all` flag to compute every algorithm at once
 - Export results to file
 
-### Password Strength Checker
+### 🔑 Password Strength Checker
 - 10-point check rubric (length, charset, symbols, sequences, …)
 - Shannon entropy calculation
 - Brute-force time estimates (online / offline slow / GPU)
@@ -60,7 +60,7 @@ that runs anywhere Python 3.8+ is installed — no root, no pip, no complexity.
 - Strong-password generator (`--suggest`)
 - Masked display — password never shown in full
 
-### WHOIS Lookup
+### 🌐 WHOIS Lookup
 - Raw TCP WHOIS query (port 43) — no API key needed
 - IANA referral following for accurate TLD routing
 - Structured field extraction (Registrar, Created, Expires, NS, …)
@@ -70,7 +70,7 @@ that runs anywhere Python 3.8+ is installed — no root, no pip, no complexity.
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -273,7 +273,7 @@ python toolkit.py whois -d google.com -o whois_report.txt
 
 ---
 
-## Security Impact
+## 🛡️ Security Impact
 
 | Tool | Real-World Use Case |
 |------|---------------------|
@@ -291,7 +291,7 @@ python toolkit.py whois -d google.com -o whois_report.txt
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 security-toolkit/
@@ -308,7 +308,7 @@ security-toolkit/
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 This toolkit is intended **for educational purposes and authorized use only**.
 
